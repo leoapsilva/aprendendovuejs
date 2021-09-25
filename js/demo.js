@@ -34,7 +34,7 @@ const HelloVueApp = {
                 this.nomeBotao = 'mostra'
         },
         insereLista() {
-            this.todos.push(this.newTodo)
+            this.todos.push({ text: this.newTodo })
           }
     },
   }
